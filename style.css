@@ -1,0 +1,131 @@
+.container{
+    margin-top: 10vh;
+    margin-left: auto;
+    padding: 15px;
+    width: 500px;
+    height: 80vh ;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(#00b9fc,#89CFF0);
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+    height: 90%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    border: 2px solid black;
+    
+}    
+.left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    z-index: 1;
+    box-shadow: 4px 4px 4px 4px #66a4c3;
+}
+.right{
+    width: 70%;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+}
+button{
+    width: 70px;
+    height: 35px;
+}
+input{
+    padding: 5px;
+    width: 300px;
+}
+.inpt{
+    margin: 10px;
+}
+input:hover, button:hover{
+    box-shadow:4px 4px 8px 4px #72ffec;
+}
+@media screen and (max-width: 996px) {
+
+.container{
+    width: 300px;
+    height: 75%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 2px solid black;
+    
+}
+.left{
+    width: 100%;
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+}
+.right{
+    width: 100%;
+    text-align: start;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    width: 70px;
+    height: 35px;
+    border: 2px solid black;
+}
+input{display: flex;
+    width: 270px;
+}
+.inputs{
+    padding-left: 45px;
+}
+.inpt{
+    margin: 0px;
+}
+.seat{
+    width: 75px;
+}
+.btns{
+    width: 400px;
+}
+
+}
+@media screen and (max-width:535px) {
+    input{
+        width: 200px;
+    }
+    .btns{
+        width: 270px;
+    }
+    .inputs{
+        padding-left: 45px;
+    }
+}
